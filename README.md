@@ -1,64 +1,71 @@
-# "Hackathon" de final de _Common Core_, películas
+# Dori
 
-## Índice
+### Planteamiento:
+Dori App es una aplicación que está dirigida a todo tipo de usuario. Este proyecto está enfocado en películas y series. Esta aplicación te permite guardar en tu tablero películas o serie que te han recomendado  para no olvidarte de ellas, en caso de que no te hayan recomendado puedes buscarlas  por calificación, genero,  en caso de las series duración de capítulos etc. Te permite ver información acerca de la película o serie (Poster, titulo, años, duración, genero y reseña ).
 
-- [Preámbulo](#preámbulo)
-- [Resumen del proyecto](#resumen-del-proyecto)
-- [Consideraciones generales](#consideraciones-generales)
-- [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
-- [Parte obligatoria](#parte-obligatoria)
-- [Consideraciones técnicas](#consideraciones-técnicas)
 
----
 
-## Preámbulo
 
-Con la aparición de plataformas para ver películas en la nube, como Netflix o
-Amazon Prime Video, ver películas desde donde estés, comiendo lo que quieras
-(sin tener que pagar precios ridículos por palomitas), parando si es necesario, teniendo acceso a una cantidad
-abrumadora de películas... ha cambiado la experiencia del usuario
-y modificado el mercado de las películas a nivel global.
+## Sección de prototipado:
 
-![Pelis](https://media.giphy.com/media/NipFetnQOuKhW/giphy.gif)
+### **Baja fidelidad**
 
-## Resumen del proyecto
 
-Durante estos días crearás el producto que quieras alrededor del mundo
-de las películas. Puede ser un sitio que hable de las mejores películas
-latinoamericanas, uno que recomiende las películas recién estrenadas en algún servicio de streaming, uno de recomendaciones de películas de terror,
-comedia ... o... ¡lo que quieran!
+### **Alta fidelidad**
 
-## Consideraciones generales
 
-- Este proyecto se debe resolver en equipos de hasta 4 personas y uno de 3.
-- Usa la API de [OMDB](http://www.omdbapi.com/) (The Open Movie Database).
-- Tiempo para completar el reto: 3 días.
-- Habrán dos presentaciones, una a la mitad de la _hackathon_ y otra al final.
+https://www.figma.com/proto/YBsi56f5hhmWI5af9IvEqB77/Hackathon-Pel%C3%ADculas?node-id=1%3A2&scaling=scale-down
 
-## Objetivos de aprendizaje
+## Historias de usuario:
 
-- Enfrentarte a un reto de corta duración en el que pongas
-  en práctica todo lo aprendido hasta ahora.
-- Que sigas desarrollando tus habilidades de trabajo en equipo. Mientras más
-  personas en un equipo de trabajo, mayor complejidad para: tener un
-  entendimiento común, seguir el flujo de trabajo, buscar consensos, etc.
+ 1. El usuario tiene que ingresar su usuario y contraseña para iniciar sesión.
+      -Dos input y un botón para ingresar
+      -Nombre de la app
+      -Logo tipo
+      -Un archivo index.html que es el primero que va a leer github.
 
-## Parte Obligatoria
+ 2. Tienes que existir el botón (hamburguesa) para que el usuario pueda  desplegar el menú al tocar o dar click.  
+      -Home
+      -Mis tableros
+      -Crear tablero
+      -Ayuda
+      -Cerrar sesión.
 
-- Todo el planeamiento del trabajo deberá ser detallado en un repositorio único
-  por _squad_ en el que se presente el _planning_, el _research_, los _sketches_
-  y las inspiraciones utilizadas para definir el producto.
-- Además, deberás detallar en el archivo _readme_, qué hizo cada una en el
-  proyecto.
-- El producto deberá presentarse publicado en github pages.
+3. El usuario necesita buscar una película/serie en el buscador principal. Después mostrará el resultado en una card.  
+      -Template de la Película: Imagen, Título, Año, Rating, Género, Reseña,      	Duración
+      -Card de Búsqueda rápida: Imagen, Título, Rating, Género y botón de agregar al tablero.
 
-## Consideraciones técnicas
+  4. El usuario necesita ver a detalle, mediante un template información más detallada y específica de la película/serie elegida y tener la opción de agregar a su tablero     
+      -Imagen debe de abarcar la mitad de la pantalla, degradado de la parte inferior a superior
+      -Título de la serie/peli de una fuente grande y legible
+      -Año, Rating, Género, Reseña, Duración,
+      -Ícono de play para que te lleve al trailer.
 
-- El diseño visual de los componentes es de libre elección.
-- Pueden usar algún framework de css si así lo deciden.
+5. Tablero con mis pelis/series que ya he guardado anteriormente
 
-## Sobre las presentaciones
 
-- Cada squad tendrá 5 minutos para presentar y 5 minutos para recibir preguntas.
+##  Quien utiliza Dori App:
 
-- Las personas que presentan en la primera presentación no deben ser las mismas de la presentación final.
+Hombres y mujeres mayores de 12  años que quieran recordar las películas o series recomendadas o simplemente que quieran buscar películas y no olvidar que película le intereso.
+
+## Especificaciones técnicas:
+
+La aplicación utiliza una API de OMDB (The Open Movie Database), se toma los primero 50 de un trapping top, para filtrar y ordenar películas y series a través de lo seleccione el usuario y así visualizar la información y permitirles agregarlas (guardarlas) a su tablero.
+
+
+## Pasos para hacer uso de la aplicación:
+
+1.  El usuario de la aplicación necesita crear una cuenta para ingresar (Usuario y contraseña).
+2.  Al ingresar a la aplicación se mostrará la barra de búsqueda y debajo  los distintos filtros y ordenado (sugerencias) en forma de carrusel .  El usuario tendrá oportunidad de seleccionar la película y serie para ver mas información
+3.  Una vez seleccionada las película o seria según sea el caso se mostrará una nueva pantalla donde aparezca la interfaz con mas información de la película/serie. Aquí también tendrás la opción de agregar a tus tableros.
+4.  El usuario puede navegar a través de la aplicación con el menú lateral para regresar al inicio, mis tableros, crear tablero, ayuda o cerrar sesión.
+
+##  Métodos de filtrado
+
+La aplicación contará con distintos filtros para buscar  las películas/series tales como;
+
+ - Búsqueda por nombre
+ - Mejor calificación
+ - Año
+ - Duración de capitulo (en el caso de las series)
+ - Genero.
