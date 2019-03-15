@@ -1,0 +1,25 @@
+.bg-grad-nav{
+    background-color: #06c0ba
+}
+.bg-dark {
+    background-color: #262626!important;
+}
+.navbar-links{
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+}
+.navbar-a{
+    color: #979797;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.text-menu {
+    color: #fff!important;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.icons-pop{
+    color: #a5dd39;
+}
