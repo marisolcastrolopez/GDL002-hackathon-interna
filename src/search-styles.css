@@ -23,3 +23,18 @@
 .icons-pop{
     color: #a5dd39;
 }
+.search-square{
+    background: url(../src/img/img-bg-abstract.jpg);
+    width: 100%;
+    vertical-align: middle;
+    background-position-x: 40%;
+    background-position-y: 40%;
+    background-size: cover;
+    padding-top: 5%;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #a5dd39 !important;
+    /* border-color: #007bff; */
+    border-color: rgb(255, 255, 255, 0) !important;
+}
