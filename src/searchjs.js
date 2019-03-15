@@ -51,19 +51,7 @@ fetch(url)
         </div>
          </div>`
       })
-      
-      output+=`
-  <div class="container mt-5">
-    <div class="row">
-  <nav aria-label="Page navigation example">
-  <ul class="pagination">
-    <li class="page-item" id="previous"><a class="page-link" onclick="previous()">Previous</a></li>
-    <li class="page-item" id="next"><a class="page-link" onclick="next()">Next</a></li>
-  </ul>
-  </nav>
-  </div>
-  </div>
-      `;
+
       document.getElementById('results').innerHTML = output;
       })
   
