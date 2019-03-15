@@ -1,4 +1,4 @@
-require('../src/explore.js');
+require('../src/searchjs.js');
 const injuries = require('../src/data/injuries/injuries.json');
 const injuriesJSON = injuries;
 const newArrayToTest = window.roadEye.dataFilterRecentYears(injuriesJSON);

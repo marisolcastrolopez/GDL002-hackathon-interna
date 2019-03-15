@@ -2,16 +2,68 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Pop n Save</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="styles.css">
+
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <title>Pop n Save</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" media="screen" href="styles.css">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <!--Font Awesome-->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
 </head>
 
 <body>
-    <p>Hola</p>
-    <script src="explore.js"></script>
+   <!-- Div Container Layout -->
+   <div id="root">
+      <section id="container">
+         <!--Logo App-->
+         <div class="container">
+            <div class="row">
+               <div class="col-0 col-lg-4"></div>
+               <div class="col-12 col-lg-4">
+                  <img id="img-logo" src="./img/popnsavelogo.png">
+               </div>
+               <div class="col-0 col-lg-4"></div>
+            </div>
+         </div>
+
+            <div class="row">
+            <div class="col-0 col-lg-4 col-xl-4"></div>
+            <div class="col-12 col-lg-4 col-xl-4">
+               <form id="form-login" action="search.html" method="GET">
+                  <!-- Usuario: -->
+                  <p class="form-titles"></p><input id="user" class="input-class" type="text" name="usuario"
+                     autocomplete="off" required />
+                  <br>
+                  <!-- Contraseña: -->
+                  <p class="form-titles"></p><input id="passw" class="input-class" type="password" name="contrasenia"
+                     autocomplete="off" required />
+                  <input id="login-button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent"
+                     type="submit" value="LOGIN" />
+               </form>
+            </div>
+            <div class="col-0 col-lg-4 col-xl-4"></div>
+         </div>
+       
+         <br>
+         <!--Forget password or create new account-->
+         <div class="row row-password">
+            <div class="col-0 col-lg-3"></div>
+            <div class="col-6 col-lg-3 forget-password">
+               <span>Create new account</span>
+            </div>
+            <div class="col-6 col-lg-3 forget-password">
+               <span>Forgot my password</span>
+            </div>
+            <div class="col-0 col-lg-3"></div>
+         </div>
+      </section>
+   </div>
 </body>
 
 </html>
