@@ -20,6 +20,14 @@
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
+.text-h4 {
+    color: rgb(73, 73, 73)!important;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
 .icons-pop{
     color: #a5dd39;
+}
+.align-icon{
+    float: right;
 }

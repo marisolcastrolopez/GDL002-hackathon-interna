@@ -46,6 +46,7 @@ fetch(url)
             <h5 class="card-title">${result.Title}</h5>
             <a href="https://www.youtube.com/results?search_query=${result.Title}+trailer" target=_blank class="btn btn-primary">Search Trailer</a>
             <button type= "button" class="btn btn-primary">More info</button>
+            <a href="board.html"><i class="fas fa-plus-circle fa-2x" style="float: right;"></i></a>
           </div>
         </div>
          </div>`
