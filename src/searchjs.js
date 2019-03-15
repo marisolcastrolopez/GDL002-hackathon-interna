@@ -27,7 +27,7 @@ function search(searchValue,page){
     // Variable para guardar API request con el titulo ingresado por el usuario (searchValue)
     // y el número de página desde donde queremos que la API nos muestre los resultados.
     // Parámetro s =  search, de acuerdo a la documentación de OMDB.
-  let url = `https://www.omdbapi.com/?s=${searchValue}&page=${page}&apikey=8a4e3d3b`;
+  let url = `https://www.omdbapi.com/?s=${searchValue}&page=${page}&apikey=a8138be8`;
 
   
 fetch(url)
