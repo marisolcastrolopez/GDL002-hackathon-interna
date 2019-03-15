@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+     <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <title>Pop n Save</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" type="text/css" media="screen" href="board-css.css">
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <!-- Bootstrap JS -->
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+          integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+          crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+          integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+          crossorigin="anonymous"></script>
+     <!--Font Awesome-->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+</head>
+
+<body>
+     <!-- Menu Colapsable -->
+     <div class="pos-f-t">
+          <div class="collapse" id="navbarToggleExternalContent">
+               <div class="bg-dark p-4">
+                    <h4 class="text-menu">Pop n' Save</h4>
+                    <ul class="navbar-links">
+                         <li><a class="navbar-a" href="search.html">Home</a></li>
+                         <li><a class="navbar-a" href="board.html">My Boards</a></li>
+                         <li><a class="navbar-a" href="board.html">Create New Board</a></li>
+                         <li><a class="navbar-a" href="search.html">Help</a></li>
+                         <li><a class="navbar-a" href="index.html">Log out</a></li>
+                    </ul>
+               </div>
+          </div>
+          <nav class="navbar navbar-dark bg-grad-nav">
+               <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+               </button>
+          </nav>
+     </div>
+     <!-- Board para popear pelis -->
+     <div class="album py-5 bg-light">
+          <div class="container">
+
+               <div class="row">
+                    <div class="col-md-4">
+                         <div class="card mb-4 shadow-sm">
+                              <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                   xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
+                                   focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                                   <title>Placeholder</title>
+                                   <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%"
+                                        fill="#eceeef" dy=".3em">Thumbnail</text>
+                              </svg>
+                              <div class="card-body">
+                                   <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to
+                                        additional content. This content is a little bit longer.</p>
+                                   <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                             <button type="button"
+                                                  class="btn btn-sm btn-outline-secondary">View</button>
+                                        </div>
+                                        <small class="text-muted"><i class="far fa-edit fa-lg"></i> <i class="fas fa-share-alt fa-lg"></i></small>
+                                        
+                                        
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+     <script src="searchjs.js"></script>
+</body>
+
+</html>
